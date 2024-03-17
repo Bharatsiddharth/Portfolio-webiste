@@ -183,7 +183,7 @@ html,body{
 /*                                        page3 from here                       */
 
 .page3{
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
     font-size: 6vw;
     /* display: flex;
@@ -200,9 +200,20 @@ html,body{
 .page3-content{
     margin-top: 10vw;
     margin-bottom: 20vw;
-    height: 90vh;
+    height: 50vh;
     width: 100%;
     /* background-color: aquamarine; */
+}
+
+.page3 .line1> img{
+    height: 20vh;
+    margin-left: 8vw;
+}
+
+.page3 .line2> img{
+    height: 20vh;
+    margin-top: 3vw;
+    margin-left: 8vw;
 }
 
 .page3 h1{
@@ -287,7 +298,7 @@ html,body{
 .video1 video{
     height: 90%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: transform 0.3s ease-in-out;
 }
 

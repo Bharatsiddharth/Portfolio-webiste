@@ -159,7 +159,25 @@ function loco(){
     //     transform: "translateY(80%)",
     //     stagger: 0.1,
     //     duration: 2,
-    //     delay:8
+    //     delay:1
+    // })
+
+    // // let tl2 = tl = gsap.timeline();
+    
+    // tl2.from(".intro h1", {
+    //     y:200,
+    //     stagger: 0.1,
+    //     duration: 1,
+    //     // delay:1,
+    //     opacity:0
+    // })
+
+    // tl2.from(".intro h7", {
+    //     y:200,
+    //     stagger: 0.1,
+    //     duration: 1,
+    //     // delay:1,
+    //     opacity:0
     // })
     
     
