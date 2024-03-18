@@ -185,7 +185,7 @@ html,body{
 .page3{
     min-height: 50vh;
     width: 100%;
-    font-size: 6vw;
+    font-size: 3vw;
     /* display: flex;
     align-items: center; */
     /* flex-direction: column; */
@@ -221,9 +221,10 @@ html,body{
     padding: 0 5vw;
 }
 .page3 .line3{
-    text-align: end;
+    text-align: center;
     /* background-color: rgb(11, 135, 243); */
-    margin-right: 4vw;
+    /* margin-right: 4vw; */
+    margin-bottom: 3vw;
 }
 
 .line4{
@@ -319,7 +320,7 @@ html,body{
 
 
 .page4 .video2{
-    height: 550px;
+    height: 450px;
     /* margin-left: 3vw; */
     width: 35%;
     object-fit: cover;
@@ -330,7 +331,7 @@ html,body{
 .video2 .page4-img{
     height: 90%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -366,9 +367,9 @@ html,body{
 }
 
 .img1 img{
-    height: 90%;
+    height: 70%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -393,9 +394,10 @@ html,body{
 }
 
 .img2 img{
-    height: 90%;
+    height: 60%;
     width: 100%;
     /* background-color: aqua; */
+    object-fit: contain;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -684,7 +686,8 @@ footer h1{
     /* background-color: aqua; */
 }
 
-footer h4{
+footer h4 {
+    font-size: 1vw;
     color: white;
     
 }
