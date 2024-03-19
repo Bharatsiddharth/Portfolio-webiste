@@ -151,6 +151,16 @@ html,body{
     font-family: monospace;
 }
 
+.intro img{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .page1-bottom{
     margin-top: 45%;
     height: 20vh;
@@ -562,7 +572,7 @@ html,body{
     height: 40vh;
     width: 25%;
     /* background-color: #f3c77c; */
-    font-size: 1.3vw;
+    font-size: 1.6vw;
     font-family: monospace;
     line-height: 1.4;
     margin-left: 5vw;
