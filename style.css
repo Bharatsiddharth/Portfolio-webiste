@@ -590,36 +590,6 @@ html,body{
 }
 
 
-.page7{
-    min-height: 100vh;
-    width: 100%;
-    background-color: black;
-}
-
-
-
-.img-line1,.img-line2,.img-line3,.img-line4,.img-line5,.img-line6{
-    height: 25vh;
-    width: 100%;
-    /* background-color: rgb(40, 167, 167); */
-    display: flex;
-    align-items: center;
-    gap: 30vh;
-    padding-left: 20vh;
-    padding-top: 20vh;
-    padding-bottom: 10vh;
-}
-
-.img-line1{
-    padding-top: 30vh;
-}
-
-.img-line6{
-    padding-bottom: 25vh;
-}
-
-
-
 
 
 /*                   ------------------- page8 from here  */
