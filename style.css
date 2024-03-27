@@ -563,47 +563,32 @@ html,body{
     width: 100%;
     /* background-color: aqua; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    /* padding: 5vw; */
 }
 
 .page6-lower .card1{
+    margin-top: 5vw;
     /* margin-top: vw; */
     letter-spacing: -1px;
-    height: 40vh;
-    width: 25%;
+    height: 50vh;
+    width: 45%;
     /* background-color: #f3c77c; */
     font-size: 1.6vw;
     font-family: monospace;
-    line-height: 1.4;
+    line-height: 2;
     margin-left: 5vw;
     font-weight: 100;
+
 }
 
-.page6-lower .card2{
-    /* margin-top: 5vw; */
-    padding-left: 9vw;
-    letter-spacing: -1px;
-    height: 40vh;
-    width: 28%;
-    /* background-color: #f3c77c; */
-    font-size: 1.3vw;
-    font-family: monospace;
-    line-height: 1.4;
-    margin-left: 5vw;
+.page6-lower .card1 h6{
+    font-size: 1vw;
+}
+.card1 h4{
+    margin-top: 3vw;
 }
 
-.page6-lower .card3{
-    /* margin-top: 5vw; */
-    padding-left: 9vw;
-    letter-spacing: -1px;
-    height: 40vh;
-    width: 28%;
-    /* background-color: #f3c77c; */
-    font-size: 1.3vw;
-    font-family: monospace;
-    line-height: 1.4;
-    margin-left: 5vw;
-}
 
 .page7{
     min-height: 100vh;
